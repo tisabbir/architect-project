@@ -9,22 +9,38 @@
 
 /* Commonly Shared Styles */
 .container__widthHandler {
-    max-width: 1200px;
-    margin: 0 auto;
     max-width: 85%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid rebeccapurple;
 }
 .btn__primary {
-    width: 150px;
     border-radius: 8px;
     background: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    padding: 20px;
+    margin-top: 30px;
 }
 
+.descriptions {
+    margin-top: 20px;
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 /* Header Section */
 
 .header {
     background: rgba(255, 144, 14, 0.10);
+    padding: 50px;
 }
 
 /* Nav Section */
@@ -32,7 +48,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
 }
 .nav__list {
     display: flex;
@@ -52,4 +67,12 @@
 .banner__description {
     max-width: 725px;
     margin: 0 auto;
+    margin-top: 20px;
+}
+
+.img {
+    width: 100%;
+}
+.banner__content {
+    margin-top: 50px;
 }
